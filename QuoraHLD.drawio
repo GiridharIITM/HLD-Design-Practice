@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.1">
   <diagram name="Page-1" id="55-fqmcAJLRXu51y09n7">
-    <mxGraphModel>
+    <mxGraphModel dx="1428" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-1" value="Functional Reqs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-2" value="User should be able to post questions to a topic" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-1">
+          <mxGeometry y="30" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-3" value="User should be able to reply to others questions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-1">
+          <mxGeometry y="60" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-4" value="User should be able to see feed&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;of recent questions on all the topics he follows&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-1">
+          <mxGeometry y="90" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-5" value="User should be able to upvote questions and replies" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-1">
+          <mxGeometry y="120" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-6" value="User should have a profile page where he can see all his questions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-1">
+          <mxGeometry y="150" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-7" value="Non Functional Reqs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="360" height="150" as="geometry">
+            <mxRectangle x="520" y="40" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-8" value="Availability- website should be almost always available" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-7">
+          <mxGeometry y="30" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-9" value="Performance- should give high speed results" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-7">
+          <mxGeometry y="60" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-10" value="Durable- Questions should not be deleted/lost" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-7">
+          <mxGeometry y="90" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-11" value="Consistency - eventual consistency should be fine for replies" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-7">
+          <mxGeometry y="120" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-13" value="Estimations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="780" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-14" value="Users: DAU - 300M, Total 1B" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-13">
+          <mxGeometry y="30" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-15" value="Question Size - Max 500 words -&amp;gt; 10KB, Image -&amp;gt; 250 KB, Video -&amp;gt; 5 MB" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-13">
+          <mxGeometry y="60" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-16" value="# Questions per day =&amp;gt; Assume 300M =&amp;gt; 3TB text, 11TB Images, 75TB Vid, daily. Lets say user either posts a Q or A, so estimates hold." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-13">
+          <mxGeometry y="90" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-21" value="Total Storage Annual = 100 TB * 360 = 36 PB + annual" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-13">
+          <mxGeometry y="120" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-17" value="# Servers needed =&amp;gt; Assume DAU all post a question within a minute =&amp;gt; 5M req/s (Assume 32 core, 3.5GHz =&amp;gt; 32K req/s proccessing) =&amp;gt; 200 servers or so will be needed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-13">
+          <mxGeometry y="150" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-18" value="In coming bandwidth =&amp;gt; all the data comes in a day=&amp;gt; ~9Gbps" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-13">
+          <mxGeometry y="180" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51zBBDYNoLbTOLJ8fibQ-20" value="Outgoing bandwidth =&amp;gt; 300 M log in and see their feed (say 20 questions) =&amp;gt; ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="51zBBDYNoLbTOLJ8fibQ-13">
+          <mxGeometry y="210" width="780" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
